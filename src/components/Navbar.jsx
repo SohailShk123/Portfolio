@@ -8,21 +8,23 @@ const Navbar = () => {
                 <h2 className='font-bold text-md'>Sohail.dev</h2>
                 <ul className='flex space-x-5'>
                     <li className='font-semibold'>
-                        <Link to='section1' smooth={true} duration={500} className="hover:text-gray-300 cursor-pointer">
+                        <Link to='section1' smooth={true} duration={500} className="hover:text-gray-500 cursor-pointer">
                             Home
                         </Link>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='section2' smooth={true} duration={500} > About
+                        <Link to='section2' smooth={true} duration={500} 
+                        className="hover:text-gray-500 cursor-pointer"
+                        > About
                         </Link>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='section3' smooth={true} duration={500} className=" hover:text-gray-300 cursor-pointer">
+                        <Link to='section3' smooth={true} duration={500} className=" hover:text-gray-500 cursor-pointer">
                             Projects
                         </Link>
                     </li>
                     <li className='font-semibold'>
-                        <Link to='section4' smooth={true} duration={500} className=" hover:text-gray-300 cursor-pointer">
+                        <Link to='section4' smooth={true} duration={1000} className=" hover:text-gray-500 cursor-pointer">
                             Contact
                         </Link>
                     </li>
